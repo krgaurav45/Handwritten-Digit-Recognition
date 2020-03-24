@@ -1,6 +1,0 @@
-from sklearn.datasets import load_digits
-from sklearn import svm
-digits = load_digits()
-plt.gray()
-plt.matshow(digits.images[20])
-plt.show()
